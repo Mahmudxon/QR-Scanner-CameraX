@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
         binding.cameraSwitchButton.setOnClickListener {
             binding.scannerView.switchCamera()
             binding.flashlight.setImageResource(R.drawable.ic_flash_off_24)
-            binding.flashlight.isVisible = !binding.scannerView.isTorchEnable()
         }
 
         binding.flashlight.setOnClickListener {
