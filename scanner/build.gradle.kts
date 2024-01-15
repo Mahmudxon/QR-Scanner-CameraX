@@ -34,10 +34,6 @@ android {
     android.sourceSets.configureEach {
         kotlin.srcDir("src/$name/kotlin")
     }
-
-    buildFeatures {
-        viewBinding = true
-    }
 }
 
 dependencies {
